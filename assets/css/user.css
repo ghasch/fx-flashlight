@@ -1,0 +1,52 @@
+
+/* BASIC STYLES */
+
+* {
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    font-size: 32px;
+    line-height: 40px;
+
+}
+
+p {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+body {
+    background: #000;
+    color: #fff;   overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    max-width: 1180px;
+    margin: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* SNIPPET SPECIFIC STYLES */
+
+
+.fx-light {
+    position: absolute;
+    border: 0;
+    z-index: 22;
+    left: 0;
+    top: 0;
+    width: 600px;
+    height: 600px;
+    pointer-events: none;
+    background: rgb(254, 255, 255);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(254, 255, 255, 1) 0%, rgba(254, 255, 255, 1) 16%, rgba(0, 0, 0, 1) 67%, rgba(0, 0, 0, 1) 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(254, 255, 255, 1) 0%, rgba(254, 255, 255, 1) 16%, rgba(0, 0, 0, 1) 67%, rgba(0, 0, 0, 1) 100%);
+    background: radial-gradient(ellipse at center, rgba(254, 255, 255, 1) 0%, rgba(254, 255, 255, 1) 16%, rgba(0, 0, 0, 1) 67%, rgba(0, 0, 0, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#feffff', endColorstr='#000000', GradientType=1);
+    mix-blend-mode: difference;
+    transform: translate(-50%, -50%);
+    opacity: 0.8;
+}
